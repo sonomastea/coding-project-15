@@ -39,9 +39,9 @@ function App() {
         <li key= {skill.id}>{skill.name}-{skill.level}</li>
       ))};
      <ul>
-     </section>
+     <section>
     
-    <section>
+    </section>
      
       <h2> Experience</h2>
       {experience.map(experience =>(
@@ -56,7 +56,7 @@ function App() {
      <section>
       <h2> Education</h2>
       {education.map(education=> (
-        <div key = {edu.id}> 
+        <div key = {education.id}> 
         <h3> {education.degree}, {education.institution}, {education.years}</h3>
         </div>
         </section>
