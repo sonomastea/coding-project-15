@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
        <h1>Sonoma Stea </h1>
     </p> 
      A dedicated and eager to learn student studying a bachelors degree at the University of South Florida. 
-     With a passion for anayltics and data, my interest is peaked by learning internal and external operations
+     With a passion for analytics and data, my interest is peaked by learning internal and external operations
      of data and technology. 
     <p>
     
@@ -58,23 +58,7 @@ function App() {
         <div key = {edu.id}> 
         <h3> {education.degree}, {education.institution}, {education.years}</h3>
         </div>
+        </section>
       ))};
 
-     </section>
 
-          Edit <code>src/App.js</code> and save to reload.
-        <p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;

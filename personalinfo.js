@@ -11,7 +11,7 @@ return(
      of data and technology </h4> 
 
 
-     <h4 className='Email and Linkdin'> Linkdin:Sonoma Stea/ Email: sonomastea@gmail.com</h4>
+     <h4 className='Email and Linkedin'> Linkedin:Sonoma Stea/ Email: sonomastea@gmail.com</h4>
     
 </div>
 )
