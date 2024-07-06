@@ -36,7 +36,7 @@ function App() {
       <h2>Skills</h2>
      <ul>
       {skills.map(skill => (
-        <li key= {skill.id}>{skill.name}-{skill.level}</li>
+        <li> {skill.name} {skill.level}</li>
       ))};
      <ul>
      <section>
@@ -44,9 +44,8 @@ function App() {
     </section>
      
       <h2> Experience</h2>
-      {experience.map(experience =>(
-        div key={exp.id}>
-        <h3> {experience.title}, {experience.company}, {experience.time}</h3>
+      {experience.map(experience =(
+        <li> {experience.title}, {experience.company}, {experience.time}</li>
         </div>
         </section>
 
@@ -56,10 +55,11 @@ function App() {
      <section>
       <h2> Education</h2>
       {education.map(education=> (
-        <div key = {education.id}> 
-        <h3> {education.degree}, {education.institution}, {education.years}</h3>
+        <li> {education.degree}, {education.institution}, {education.years}</li>
         </div>
         </section>
       ))};
+
+      export defaultApp;
 
 
